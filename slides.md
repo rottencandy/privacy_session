@@ -1,6 +1,6 @@
 ---
 theme: default
-background: https://cover.sli.dev
+background: cover.png
 title: My Setup
 info: |
   My privacy-conscious setup
@@ -18,82 +18,174 @@ what's for today...
 <Toc text-sm minDepth="1" maxDepth="2" />
 
 ---
+transition: slide-up
+---
 
 # OS
-
-<v-switch transition="slide-up">
-<template #0>
 
 - phone: Pixel OS
 - pc: NixOS
 
-</template>
-<template #1>
+---
+layout: image-right
+transition: slide-up
+hideInToc: true
+image: pixelos.jpg
+backgroundSize: 50%
+---
 
-[Pixel OS](https://pixelos.net/) ([Lineage OS](https://lineageos.org/))
+#### [Pixel OS](https://pixelos.net/) / [Lineage OS](https://lineageos.org/)
 
-- **_ZERO_** bloatware
+- <span v-mark.red>**_ZERO_**</span> bloatware
 - updates
 
-</template>
-<template #2>
+---
+layout: image-right
+hideInToc: true
+image: nixos.svg
+backgroundSize: 80%
+---
 
-[NixOS](https://nixos.org/)
+#### [NixOS](https://nixos.org/)
 
 - declarative: [my config](https://github.com/rottencandy/nixfiles)
 - reliable
 - [applications!](https://repology.org/repositories/graphs)
 
-</template>
-</v-switch>
-
 ---
-transition: slide-up
+layout: two-cols
 ---
 
 # App stores
 
-- nixpkgs, f-droid(droidify)
+- nixpkgs, f-droid([droidify](https://droidify.app/))
+
+::right::
+
+![f-droid](./fdroid.svg)
+![droidify](./droidify.webp)
 
 ---
+layout: image-right
+transition: slide-up
+image: ff.svg
+transition: slide-up
+backgroundSize: 50%
 ---
 
 # Browsing
 
 - firefox + ublock origin
-- startpage
-- DuckDuckGo
-- nextdns
-
----
----
-
-# Messaging/Social
-
-- signal
-- element
-- mastodon
-- lemmy
-- email: protonmail, simplelogin, self-managed
-
----
----
-
-# Everyday apps
-
-- fossify suite
-- thumbkey
-- vlc
-- loop
-- localsend
-- syncthing
-- newpipe
-- aegis
-- keepass
+- [searx-ng](https://searx.space/), DuckDuckGo
+- [nextdns](https://nextdns.io/)
 
 ---
 layout: image-right
-image: https://cover.sli.dev
+transition: slide-up
+hideInToc: true
+image: ff-meme.jpg
+backgroundSize: 80%
+---
+
+#### Firefox + uBlock origin
+
+- it's not chrome!
+- ad? what's that?
+
+---
+layout: image-right
+image: searx.svg
+hideInToc: true
+backgroundSize: 60%
+---
+
+#### Search
+
+- [searx](https://searx.space/)
+  - meta-search engine
+- duckduckgo
+  - [bangs](https://duckduckgo.com/bangs)
+
+---
+---
+
+# Social/Messaging
+
+- services
+- email
+
+---
+layout: image-right
+image: searx.svg
+hideInToc: true
+backgroundSize: 60%
+---
+
+#### Services
+
+- [signal](https://signal.org/)
+- [matrix](https://matrix.org/)
+- [mastodon](https://joinmastodon.org/)
+- [lemmy](https://join-lemmy.org/)
+
+---
+layout: image-right
+image: simplelogin.png
+hideInToc: true
+backgroundSize: 60%
+---
+
+#### Email
+
+- [protonmail](https://proton.me/)
+- [simplelogin](https://simplelogin.io/)
+- [PGP!](https://www.openpgp.org/)
+
+---
+---
+
+# Apps
+
+- everyday apps
+- file sharing
+- password management
+
+---
+hideInToc: true
+---
+
+#### Everyday apps
+
+- [lawnchair](https://lawnchair.app/)
+- [fossify suite](https://github.com/fossifyorg)
+- [vlc](https://www.videolan.org/)
+- [thumbkey](https://f-droid.org/packages/com.dessalines.thumbkey/)
+- [loop](https://github.com/iSoron/uhabits)
+
+---
+hideInToc: true
+---
+
+#### File sharing
+
+- [localsend](https://localsend.org/)
+- [syncthing](https://syncthing.net/)
+- [newpipe](https://newpipe.net/)
+
+---
+hideInToc: true
+---
+
+#### Password management
+
+- [aegis](https://getaegis.app/)
+- [keepass](https://keepassxc.org/)
+
+---
+layout: image-right
+image: end.jpg
 ---
 
 # thank you
+
+- https://saud.wtf
