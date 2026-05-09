@@ -62,8 +62,8 @@ layout: two-cols
 
 ::right::
 
-![f-droid](./fdroid.svg)
-![droidify](./droidify.webp)
+![f-droid](./public/fdroid.svg)
+![droidify](./public/droidify.webp)
 
 ---
 layout: image-right
