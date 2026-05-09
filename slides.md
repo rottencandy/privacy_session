@@ -75,8 +75,8 @@ backgroundSize: 50%
 
 # Browsing
 
-- firefox + ublock origin
-- [searx-ng](https://searx.space/), DuckDuckGo
+- browser
+- search
 - [nextdns](https://nextdns.io/)
 
 ---
@@ -130,6 +130,7 @@ backgroundSize: 60%
 
 ---
 layout: image-right
+transition: slide-up
 image: simplelogin.png
 hideInToc: true
 backgroundSize: 60%
@@ -142,6 +143,7 @@ backgroundSize: 60%
 - [PGP!](https://www.openpgp.org/)
 
 ---
+transition: slide-up
 ---
 
 # Apps
@@ -152,6 +154,7 @@ backgroundSize: 60%
 
 ---
 hideInToc: true
+transition: slide-up
 ---
 
 #### Everyday apps
@@ -164,6 +167,7 @@ hideInToc: true
 
 ---
 hideInToc: true
+transition: slide-up
 ---
 
 #### File sharing
