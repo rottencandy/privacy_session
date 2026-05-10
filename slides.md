@@ -87,10 +87,13 @@ image: ff-meme.jpg
 backgroundSize: 80%
 ---
 
-#### Firefox + uBlock origin
+#### Firefox(hardened) + uBlock origin
 
 - it's not chrome!
 - ad? what's that?
+- [user js](https://github.com/arkenfox/user.js/)
+  - [how much does your browser snitch?](https://sinceyouarrived.world/taken)
+  - [fingerprint test](https://amiunique.org/fingerprint)
 
 ---
 layout: image-right
@@ -175,6 +178,7 @@ transition: slide-up
 - [localsend](https://localsend.org/)
 - [syncthing](https://syncthing.net/)
 - [newpipe](https://newpipe.net/)
+  - [pipepipe](https://pipepipe.dev/)
 
 ---
 hideInToc: true
@@ -184,6 +188,7 @@ hideInToc: true
 
 - [aegis](https://getaegis.app/)
 - [keepass](https://keepassxc.org/)
+- doomsday scenario
 
 ---
 layout: image-right
